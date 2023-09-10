@@ -1,0 +1,83 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: black;
+}
+body{
+    background-color: rgb(227, 239, 194);
+}
+.navbar{
+    background-color: gray;
+    text-align: center;
+}
+.topic img{
+    width: 175px;
+    height: 40px;
+    float: left;
+    padding: 7px;
+    margin-bottom: 2px;
+
+}
+.topic ul{
+    list-style: none;
+    display: inline-flex;
+    overflow: hidden;
+    text-align: center;
+}
+.topic a{
+    padding: 5px 25px;
+    margin: 20px 20px;
+    text-decoration: none;
+}
+.topic a:hover{
+    background-color: rgb(45, 3, 84);
+    color: aliceblue;
+}
+
+.main{
+    display:inline-flex;
+    flex-wrap:wrap;
+    justify-content: space-around; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main:hover{
+    box-shadow: black;
+    transition: 0.2s;
+}
+
+.card{
+    background-color: rgb(140, 104, 173);
+    padding: 25px 25px;
+    margin: 25px 20px;
+    border-radius: 10px;
+}
+
+
+
+.image img{
+    height: 400px;
+    width: 500px;
+    min-width: 100%;
+    border-radius: 10px;
+}
+
+.heading h2{
+    text-align: center;
+    background-color: rgb(140, 104, 173);
+}
+.explain{
+    text-align: center;
+    background-color: rgb(140, 104, 173);
+
+}
+
+.add-to-cart {
+    background-color: rgba(17, 207, 96, 0.816);
+    padding: 20px 25px;
+    border-radius: 8px;
+}
+
+.add-to-cart{
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: black;
+}
+body{
+    background-color: rgb(184, 205, 126);
+}
+.navbar{
+    background-color: gray;
+    text-align: center;
+}
+.topic img{
+    width: 175px;
+    height: 40px;
+    float: left;
+    padding: 7px;
+    margin-bottom: 2px;
+
+}
+.topic ul{
+    list-style: none;
+    display: inline-flex;
+    overflow: hidden;
+    text-align: center;
+}
+.topic a{
+    padding: 5px 25px;
+    margin: 20px 20px;
+    text-decoration: none;
+}
+.topic a:hover{
+    background-color: rgb(45, 3, 84);
+    color: aliceblue;
+}
+
+.card{
+    background-color: rgb(222, 197, 248);
+    padding: 25px 25px;
+    margin: 25px 20px;
+    border-radius: 10px;
+}
+
+
+
+.image img{
+    height:700px;
+    width: 200px;
+    image-resolution: 300px;
+    min-width: 100%;
+    border-radius: 10px;
+}
+
+.heading h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+.explain{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+
+}
